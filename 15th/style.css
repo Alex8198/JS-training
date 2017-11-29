@@ -1,0 +1,33 @@
+#parent {
+	
+	height: 320px;
+	width: 320px;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.child {
+	display: inline-block;
+	height: 78px;
+	width: 78px;
+	background-color: green;
+	border: 1px solid black;
+	font-size: 60px;
+	text-align: center;
+
+	
+}
+
+.zero {
+	color: white;
+	display: inline-block;
+	height: 78px;
+	width: 78px;
+	background-color: white;
+	border: 1px solid black;
+
+}
