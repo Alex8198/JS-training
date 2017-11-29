@@ -1,0 +1,15 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "cryptocurrencyTelegramBot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex8198",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^3.21.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
