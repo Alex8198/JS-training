@@ -10,7 +10,6 @@ winArr = arr;
 winArr.shift();
 winArr.push(0);
 
-
 function compareRandom(a, b) {
   return Math.random() - 0.5;
 }
@@ -34,6 +33,7 @@ for (var i = 0; i < 16; i++) {
 }
 
 parent.onclick = function(event) {
+
 	var target = event.target;
 	var cells = document.getElementsByClassName('child');
 	var newArr = [];
@@ -77,11 +77,6 @@ parent.onclick = function(event) {
 		
 	}
 	
-	
-	
-	//exchangeElements(target, newZero);
-	
-	//console.log(arr);
 }
 
 function exchangeElements(element1, element2) {
